@@ -12,8 +12,15 @@ body {
   color: var(--font-color);
 }
 .button:hover {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .link:hover {
   color: aquamarine;
+}
+.logo {
+  color: var(--logo-color);
+}
+.blue {
+  color: var(--blue-color);
+  text-decoration: none;
 }
