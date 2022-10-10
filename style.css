@@ -11,16 +11,90 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--font-color);
 }
-.button:hover {
-  color: var(--blue-color);
-}
-.link:hover {
-  color: aquamarine;
-}
+
 .logo {
   color: var(--logo-color);
+  font-family: Raleway;
+  font-style: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
 }
 .blue {
   color: var(--blue-color);
   text-decoration: none;
+}
+.button:hover {
+  background-color: var(--blue-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-align: center;
+  background-color: var(--button-colr);
+  cursor: pointer;
+}
+.navi {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  color: var(--font-color);
+  text-decoration: none;
+}
+.navi:hover {
+  color: var(--blue-color);
+}
+.contact {
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  color: #757575;
+  text-decoration: none;
+}
+.contact:hover {
+  color: var(--blue-color);
+}
+.main-header {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.header-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+  background-color: var(--blue-color);
+  color: var(--main-color);
+  cursor: pointer;
+}
+
+.list-header {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--font-color);
+}
+.list-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--description-color);
+}
+.footer-background {
+  background-color: var(--footer-color);
+}
+.address-color {
+  color: var(--main-color);
 }
