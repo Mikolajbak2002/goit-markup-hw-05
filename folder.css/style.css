@@ -20,6 +20,7 @@ body {
   line-height: 1.19;
   text-decoration: none;
 }
+
 .blue {
   color: var(--blue-color);
   text-decoration: none;
@@ -40,13 +41,17 @@ body {
 }
 .navi {
   font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
+  font-size: 16px;
+  line-height: 1.13;
   color: var(--font-color);
   text-decoration: none;
 }
 .navi:hover {
   color: var(--blue-color);
+}
+.navi-blue {
+  color: var(--blue-color);
+  text-decoration: none;
 }
 .contact {
   font-weight: 500;
@@ -68,7 +73,7 @@ body {
 }
 .header-button {
   font-size: 16px;
-  font-weight: 700;
+
   line-height: 1.87;
   letter-spacing: 0.06em;
   text-align: center;
@@ -78,7 +83,6 @@ body {
 }
 
 .list-header {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -86,15 +90,33 @@ body {
   color: var(--font-color);
 }
 .list-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--description-color);
 }
+.team-header {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--font-color);
+}
+.team-profession {
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--description-color);
+}
+
+.team-background {
+  background-color: var(--button-color);
+}
+
 .footer-background {
   background-color: var(--footer-color);
 }
 .address-color {
+  color: var(--main-color);
+}
+.footer-logo-color {
   color: var(--main-color);
 }
