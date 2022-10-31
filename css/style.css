@@ -39,9 +39,6 @@ h1 {
   display: flex;
   justify-content: space-between;
   gap: 46px;
-
-  margin-left: 93px;
-  margin-right: 371px;
 }
 .head-wrapper {
   display: flex;
@@ -50,6 +47,7 @@ h1 {
   border-bottom: 1px solid rgba(236, 236, 236, 1);
   justify-content: space-between;
 }
+
 .seciton-wrapper {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -90,6 +88,7 @@ h1 {
   padding: 0 15px;
 }
 .logo {
+  justify-self: center;
   font-family: Raleway;
   font-size: 26px;
   font-weight: 700;
@@ -126,10 +125,10 @@ h1 {
 .main-photos {
   margin: 0;
   padding: 0;
-  border: 1px solid rgba(238, 238, 238, 1);
 }
 .photo-caption {
   padding-bottom: 20px;
+  border: 1px solid rgba(238, 238, 238, 1);
 }
 .photos {
   display: flex;
@@ -241,6 +240,7 @@ h1 {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-align: left;
+  margin-bottom: 10px;
 }
 
 .list-description {
@@ -304,6 +304,7 @@ h1 {
   margin-bottom: 60px;
 }
 .footer-address {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
