@@ -36,10 +36,11 @@ h1 {
   display: flex;
 }
 .navigation {
-  display: flex;
   justify-content: space-between;
   gap: 46px;
+  margin-left: 93px;
 }
+
 .head-wrapper {
   display: flex;
   align-items: center;
