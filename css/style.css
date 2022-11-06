@@ -57,11 +57,33 @@ nav {
   padding-bottom: 200px;
   text-align: center;
   background-color: var(--footer-color);
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/Img.jpg);
+  background-repeat: round;
+}
+.gallery-element {
+  /* background-image: url(../images/Img.jpg);
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+  background-position: 100%; */
 }
 .lorem-list {
   margin: 0;
   justify-content: space-between;
   gap: 30px;
+}
+.icon-div {
+  display: flex;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
 }
 .job-list {
   justify-content: space-between;
@@ -86,6 +108,11 @@ nav {
   justify-content: space-between;
   gap: 50px;
 }
+.contact-list-element:hover .contact-list-element:focus {
+  color: var(--blue-color);
+  stroke: var(--blue-color);
+}
+
 .container {
   width: 1200px;
   margin: auto;
@@ -114,8 +141,15 @@ nav {
   color: var(--font-color);
 }
 
-.navi:hover {
+.navi:hover:hover {
   color: var(--blue-color);
+}
+.mail-icon {
+  margin-right: 10px;
+}
+
+.tell-icon {
+  margin-right: 5px;
 }
 
 .contacts {
@@ -127,6 +161,7 @@ nav {
   color: var(--description-color);
   text-decoration: none;
 }
+
 .main-photos {
   margin: 0;
   padding: 0;
@@ -327,4 +362,89 @@ nav {
 }
 footer {
   background-color: var(--footer-color);
+}
+.client-header {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 50px;
+}
+.icon-ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 206px;
+  height: 44px;
+  margin: auto;
+  margin-top: 16px;
+  padding-bottom: 30px;
+}
+.icon-li {
+  display: flex;
+}
+.icon-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  fill: #afb1b8;
+}
+.icon-link:hover,
+.icon-link:focus {
+  background-color: var(--blue-color);
+  cursor: pointer;
+  fill: var(--main-color);
+}
+.client-list li {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+  fill: #afb1b8;
+}
+.client-list li:hover,
+.client-list li:focus {
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+  cursor: pointer;
+}
+.client-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 94px;
+}
+.social-header {
+  display: flex;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-color);
+}
+.social-link-dark {
+  background: rgba(255, 255, 255, 0.1);
+}
+.social-links {
+  gap: 10px;
+}
+.social-links-wrapper {
+  display: flex;
+  width: 206px;
+  align-self: center;
+}
+.icon {
+  display: flex;
 }
