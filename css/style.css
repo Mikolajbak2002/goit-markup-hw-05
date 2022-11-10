@@ -108,11 +108,14 @@ nav {
   justify-content: space-between;
   gap: 50px;
 }
-.contact-list-element:hover .contact-list-element:focus {
+.contact-list-element:hover {
   color: var(--blue-color);
   stroke: var(--blue-color);
 }
-
+.contacts:focus {
+  color: var(--blue-color);
+  stroke: var(--blue-color);
+}
 .container {
   width: 1200px;
   margin: auto;
@@ -355,6 +358,10 @@ nav {
   margin-bottom: 9px;
 }
 .footer-footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
   padding-top: 60px;
 }
 .footer-contacts:hover {
@@ -442,9 +449,14 @@ footer {
 }
 .social-links-wrapper {
   display: flex;
+  flex-wrap: wrap;
   width: 206px;
-  align-self: center;
 }
 .icon {
   display: flex;
+}
+.footer-position {
+  display: flex;
+  align-items: flex-start;
+  gap: 70px;
 }
