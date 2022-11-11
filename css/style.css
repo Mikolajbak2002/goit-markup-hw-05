@@ -84,7 +84,14 @@ nav {
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
+  position: relative;
 }
+.antenna {
+  position: absolute;
+  top: 25px;
+  left: 11%;
+}
+
 .job-list {
   justify-content: space-between;
   gap: 30px;
